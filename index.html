@@ -8,10 +8,10 @@
 <body>
     <p uk-margin>
         <center>
-            <br>
-            <img src="img/sello.png" width="500" height="500">
-            <br>
-        <a class="uk-button uk-button-default" href="#modal-media-youtube" uk-toggle>New Products</a>
+         <img src="img/sello.png" width="450" height="450">
+         <br>
+         <a class="uk-button uk-button-default" href="#modal-media-youtube" uk-toggle>Beats Preview</a>
+        
     </center>
     </p>
     <div id="modal-media-youtube" class="uk-flex-top" uk-modal>
@@ -20,9 +20,39 @@
             <iframe src="https://www.youtube-nocookie.com/embed/6psPgdNDS7w" width="1920" height="1080" frameborder="0" uk-video uk-responsive></iframe>
         </div>
     </div>
+    <hr class="uk-divider-icon">
+    <div class="uk-flex uk-flex-center">
+        <div></div>
+        <div ><!-- countdown -->
+            <div class="uk-grid-small uk-child-width-auto" uk-grid uk-countdown="date: 2020-05-22T02:35:56+00:00">
+                <div>
+                    <div class="uk-countdown-number uk-countdown-days"></div>
+                    <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Days</div>
+                </div>
+                <div class="uk-countdown-separator">:</div>
+                <div>
+                    <div class="uk-countdown-number uk-countdown-hours"></div>
+                    <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Hours</div>
+                </div>
+                <div class="uk-countdown-separator">:</div>
+                <div>
+                    <div class="uk-countdown-number uk-countdown-minutes"></div>
+                    <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Minutes</div>
+                </div>
+                <div class="uk-countdown-separator">:</div>
+                <div>
+                    <div class="uk-countdown-number uk-countdown-seconds"></div>
+                    <div class="uk-countdown-label uk-margin-small uk-text-center uk-visible@s">Seconds</div>
+                </div>
+            </div></div>
+        <div>
+        </div>
+    </div>
+    
     
 </body>
 <!-- UIkit CSS -->
+<link rel="stylesheet" href="style/style.css">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.4.4/dist/css/uikit.min.css" />
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.4/dist/js/uikit.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/uikit@3.4.4/dist/js/uikit-icons.min.js"></script>
